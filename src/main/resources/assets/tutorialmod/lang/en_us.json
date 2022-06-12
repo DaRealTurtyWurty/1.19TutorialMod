@@ -1,0 +1,13 @@
+{
+  "item.tutorialmod.example_item": "Example Item",
+  "item.tutorialmod.example2_item": "Example 2 Item",
+  "block.tutorialmod.example_block": "Example Block",
+  "block.tutorialmod.example2_block": "Example 2 Block",
+  "itemGroup.tutorialmod": "Tutorial Tab",
+  "item.tutorialmod.example_food": "Example Food",
+  "item.tutorialmod.example_sword": "Example Sword",
+  "item.tutorialmod.example_pickaxe": "Example Pickaxe",
+  "item.tutorialmod.example_shovel": "Example Shovel",
+  "item.tutorialmod.example_axe": "Example Axe",
+  "item.tutorialmod.example_hoe": "Your Mum"
+}

@@ -1,0 +1,16 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+license="MIT"
+
+[[mods]]
+modId="tutorialmod"
+version="1.0"
+displayName="Tutorial Mod"
+#updateJSONURL="https://change.me.example.invalid/updates.json"
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+logoFile="examplemod.png"
+credits="Me"
+authors="TurtyWurty"
+description='''
+A 1.19 Forge Modding Tutorial.
+'''
