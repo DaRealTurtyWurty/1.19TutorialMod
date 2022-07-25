@@ -9,5 +9,14 @@
   "item.tutorialmod.example_pickaxe": "Example Pickaxe",
   "item.tutorialmod.example_shovel": "Example Shovel",
   "item.tutorialmod.example_axe": "Example Axe",
-  "item.tutorialmod.example_hoe": "Your Mum"
+  "item.tutorialmod.example_hoe": "Your Mum",
+  "item.tutorialmod.example_helmet": "Example Helmet",
+  "item.tutorialmod.example_chestplate": "Example Chestplate",
+  "item.tutorialmod.example_leggings": "Example Leggings",
+  "item.tutorialmod.example_boots": "Example Boots",
+  "block.tutorialmod.example_animated": "Example Animated Block",
+  "block.tutorialmod.example_flower": "Example Flower",
+  "block.tutorialmod.example_flower_pot": "Potted Example Flower",
+  "item.tutorialmod.advanced_item": "Advanced Item",
+  "block.tutorialmod.advanced_block": "Advanced Block"
 }

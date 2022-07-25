@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tutorialmod:example_item"
+          "name": "tutorialmod:advanced_block"
         }
       ],
       "conditions": [
