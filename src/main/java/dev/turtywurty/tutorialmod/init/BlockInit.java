@@ -46,6 +46,18 @@ public class BlockInit {
     public static final RegistryObject<FlowerPotBlock> EXAMPLE_FLOWER_POT = BLOCKS.register("example_flower_pot",
             () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT, BlockInit.EXAMPLE_FLOWER, BlockBehaviour.Properties.copy(Blocks.FLOWER_POT)));
 
+    public static final RegistryObject<Block> EXAMPLE_OVERWORLD_ORE = BLOCKS.register("example_overworld_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)));
+
+    public static final RegistryObject<Block> EXAMPLE_DEEPSLATE_OVERWORLD_ORE = BLOCKS.register("example_deepslate_overworld_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_DIAMOND_ORE)));
+
+    public static final RegistryObject<Block> EXAMPLE_NETHER_ORE = BLOCKS.register("example_nether_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHER_QUARTZ_ORE)));
+
+    public static final RegistryObject<Block> EXAMPLE_END_ORE = BLOCKS.register("example_end_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.END_STONE)));
+
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> supplier, Item.Properties properties) {
         RegistryObject<T> block = BLOCKS.register(name, supplier);
         ItemInit.ITEMS.register(name, () -> new BlockItem(block.get(), properties));

@@ -1,8 +1,6 @@
 package dev.turtywurty.tutorialmod;
 
-import dev.turtywurty.tutorialmod.init.BlockInit;
-import dev.turtywurty.tutorialmod.init.ItemInit;
-import dev.turtywurty.tutorialmod.init.PaintingInit;
+import dev.turtywurty.tutorialmod.init.*;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -20,6 +18,8 @@ public class TutorialMod {
         PaintingInit.PAINTINGS.register(bus);
         BlockInit.BLOCKS.register(bus);
         ItemInit.ITEMS.register(bus);
+        ConfiguredFeatureInit.CONFIGURED_FEATURES.register(bus);
+        PlacedFeatureInit.PLACED_FEATURES.register(bus);
     }
 
     public static final CreativeModeTab TAB = new CreativeModeTab(MODID) {

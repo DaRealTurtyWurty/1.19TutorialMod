@@ -18,5 +18,9 @@
   "block.tutorialmod.example_flower": "Example Flower",
   "block.tutorialmod.example_flower_pot": "Potted Example Flower",
   "item.tutorialmod.advanced_item": "Advanced Item",
-  "block.tutorialmod.advanced_block": "Advanced Block"
+  "block.tutorialmod.advanced_block": "Advanced Block",
+  "block.tutorialmod.example_overworld_ore": "Example Overworld Ore",
+  "block.tutorialmod.example_deepslate_overworld_ore": "Example Deepslate Overworld Ore",
+  "block.tutorialmod.example_nether_ore": "Example Nether Ore",
+  "block.tutorialmod.example_end_ore": "Example End Ore"
 }

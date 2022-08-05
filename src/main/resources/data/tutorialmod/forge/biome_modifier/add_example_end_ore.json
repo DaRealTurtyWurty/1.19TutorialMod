@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_end",
+  "features": "tutorialmod:example_end_ore",
+  "step": "underground_ores"
+}
