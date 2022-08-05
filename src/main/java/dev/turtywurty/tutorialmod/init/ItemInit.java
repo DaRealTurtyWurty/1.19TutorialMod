@@ -30,6 +30,9 @@ public class ItemInit {
     public static final RegistryObject<AdvancedItem> ADVANCED_ITEM = ITEMS.register("advanced_item",
             () -> new AdvancedItem(props()));
 
+    public static final RegistryObject<Item> ITEM_CUSTOM_MODEL = ITEMS.register("item_custom_model",
+            () -> new Item(props()));
+
     public static final RegistryObject<SwordItem> EXAMPLE_SWORD = ITEMS.register("example_sword",
             () -> new SwordItem(ToolTiers.EXAMPLE, 5, 3.5f, props()));
     public static final RegistryObject<PickaxeItem> EXAMPLE_PICKAXE = ITEMS.register("example_pickaxe",
