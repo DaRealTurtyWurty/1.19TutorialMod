@@ -1,0 +1,9 @@
+{
+  "parent": "forge:item/bucket",
+  "loader": "forge:bucket",
+  "textures": {
+    "base": "item/bucket",
+    "fluid": "tutorialmod:items/drip_bucket"
+  },
+  "fluid": "tutorialmod:example_fluid"
+}

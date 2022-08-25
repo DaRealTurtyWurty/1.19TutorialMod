@@ -24,5 +24,6 @@
   "block.tutorialmod.example_nether_ore": "Example Nether Ore",
   "block.tutorialmod.example_end_ore": "Example End Ore",
   "block.tutorialmod.block_custom_model": "Custom Model Block",
-  "item.tutorialmod.item_custom_model": "Custom Model Item"
+  "item.tutorialmod.item_custom_model": "Custom Model Item",
+  "item.tutorialmod.example_fluid_bucket": "Bucket of Example"
 }

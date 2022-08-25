@@ -20,6 +20,8 @@ public class TutorialMod {
         ItemInit.ITEMS.register(bus);
         ConfiguredFeatureInit.CONFIGURED_FEATURES.register(bus);
         PlacedFeatureInit.PLACED_FEATURES.register(bus);
+        FluidInit.FLUID_TYPES.register(bus);
+        FluidInit.FLUIDS.register(bus);
     }
 
     public static final CreativeModeTab TAB = new CreativeModeTab(MODID) {
