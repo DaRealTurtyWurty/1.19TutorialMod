@@ -25,5 +25,6 @@
   "block.tutorialmod.example_end_ore": "Example End Ore",
   "block.tutorialmod.block_custom_model": "Custom Model Block",
   "item.tutorialmod.item_custom_model": "Custom Model Item",
-  "item.tutorialmod.example_fluid_bucket": "Bucket of Example"
+  "item.tutorialmod.example_fluid_bucket": "Bucket of Example",
+  "item.tutorialmod.example_entity_spawn_egg": "Spawn Example Entity"
 }

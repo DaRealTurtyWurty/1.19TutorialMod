@@ -11,6 +11,7 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.common.ForgeTier;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -52,6 +53,9 @@ public class ItemInit {
             () -> new ArmorItem(ArmorTiers.EXAMPLE, EquipmentSlot.LEGS, props()));
     public static final RegistryObject<ArmorItem> EXAMPLE_BOOTS = ITEMS.register("example_boots",
             () -> new ArmorItem(ArmorTiers.EXAMPLE, EquipmentSlot.FEET, props()));
+
+    public static final RegistryObject<ForgeSpawnEggItem> EXAMPLE_ENTITY_SPAWN_EGG = ITEMS.register("example_entity_spawn_egg",
+            () -> new ForgeSpawnEggItem(EntityInit.EXAMPLE, 0xFF55AA, 0x27DA9F, props().stacksTo(16)));
 
     private static Item.Properties props() {
         return new Item.Properties().tab(TutorialMod.TAB);
