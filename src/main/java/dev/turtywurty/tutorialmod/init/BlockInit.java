@@ -2,6 +2,7 @@ package dev.turtywurty.tutorialmod.init;
 
 import dev.turtywurty.tutorialmod.TutorialMod;
 import dev.turtywurty.tutorialmod.blocks.AdvancedBlock;
+import dev.turtywurty.tutorialmod.blocks.CrusherBlock;
 import dev.turtywurty.tutorialmod.blocks.CustomModelBlock;
 import dev.turtywurty.tutorialmod.items.AdvancedItem;
 import net.minecraft.resources.ResourceLocation;
@@ -65,6 +66,10 @@ public class BlockInit {
 
     public static final RegistryObject<Block> BLOCK_CUSTOM_MODEL = register("block_custom_model",
             () -> new CustomModelBlock(BlockBehaviour.Properties.of(Material.DIRT).dynamicShape().noOcclusion()),
+            new Item.Properties().tab(TutorialMod.TAB));
+
+    public static final RegistryObject<CrusherBlock> CRUSHER = register("crusher",
+            () -> new CrusherBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(5f, 20f)),
             new Item.Properties().tab(TutorialMod.TAB));
 
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> supplier, Item.Properties properties) {
