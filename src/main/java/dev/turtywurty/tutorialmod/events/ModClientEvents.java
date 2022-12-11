@@ -3,8 +3,12 @@ package dev.turtywurty.tutorialmod.events;
 import dev.turtywurty.tutorialmod.TutorialMod;
 import dev.turtywurty.tutorialmod.client.models.ExampleEntityModel;
 import dev.turtywurty.tutorialmod.client.renderer.ExampleEntityRenderer;
+import dev.turtywurty.tutorialmod.client.screens.CrusherScreen;
 import dev.turtywurty.tutorialmod.init.BlockInit;
 import dev.turtywurty.tutorialmod.init.EntityInit;
+import dev.turtywurty.tutorialmod.init.MenuInit;
+import dev.turtywurty.tutorialmod.menus.CrusherMenu;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.api.distmarker.Dist;
@@ -19,6 +23,7 @@ public class ModClientEvents {
     public static void clientSetup(FMLClientSetupEvent event) {
         ItemBlockRenderTypes.setRenderLayer(BlockInit.EXAMPLE_FLOWER.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(BlockInit.EXAMPLE_FLOWER_POT.get(), RenderType.cutout());
+        MenuScreens.register(MenuInit.CRUSHER.get(), CrusherScreen::new);
     }
 
     @SubscribeEvent

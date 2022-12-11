@@ -24,6 +24,7 @@ public class TutorialMod {
         FluidInit.FLUIDS.register(bus);
         EntityInit.ENTITIES.register(bus);
         BlockEntityInit.BLOCK_ENTITIES.register(bus);
+        MenuInit.MENUS.register(bus);
     }
 
     public static final CreativeModeTab TAB = new CreativeModeTab(MODID) {
